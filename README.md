@@ -102,7 +102,7 @@ Pastikan Anda memiliki **backend server** untuk menangani API.
 - Ubah URL base API sesuai kebutuhan Anda:
 ```javascript
 const axiosInstance = axios.create({
-  baseURL: "https://api.example.com", // Ganti dengan base URL backend Anda
+  baseURL: "https://www.tripwise.my.id", // Ganti dengan base URL backend Anda
   timeout: 5000,
 });
 ```
